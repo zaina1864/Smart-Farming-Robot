@@ -109,7 +109,7 @@ Key goals of this system:
 2. On Raspberry Pi, run:
    ```bash
    python3 bottle2rover.py
-````
+```
 
 3. Open browser at `http://<raspberrypi-ip>:8080`
 4. Control rover + view sensor data in GUI
