@@ -79,20 +79,6 @@ Key goals of this system:
 
 ---
 
-## 📂 Project Structure
-
-📁 SmartFarmingRover
-├── bottle2rover.py # Raspberry Pi web server and control logic
-├── rover_control.ino # Arduino code: sensor read + motor control
-├── index.html # GUI frontend (web dashboard)
-├── /images # System diagrams, GUI, simulations
-│ ├── gui.png
-│ ├── system_overview.png
-│ ├── tinkercad_sensor.png
-│ ├── tinkercad_motor.png
-
-
----
 
 ## 🚀 How to Run the Project
 
