@@ -44,7 +44,7 @@ Key goals of this system:
 
 ## ⚙️ System Architecture
 
-![System Overview](sys_over.png)
+![System Overview](sysover.png)
 
 ### Components Overview
 
