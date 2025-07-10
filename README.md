@@ -91,3 +91,49 @@ Key goals of this system:
 │ ├── tinkercad_sensor.png
 │ ├── tinkercad_motor.png
 
+
+---
+
+## 🚀 How to Run the Project
+
+### 🔧 Hardware Setup
+
+- Soil moisture sensor → Arduino A0  
+- Motor driver (L298N) → Arduino PWM pins  
+- Stepper motor (for spraying) → Digital pins  
+- Arduino USB → Raspberry Pi
+
+### 💻 Software Setup
+
+1. Flash `rover_control.ino` to Arduino
+2. On Raspberry Pi, run:
+   ```bash
+   python3 bottle2rover.py
+````
+
+3. Open browser at `http://<raspberrypi-ip>:8080`
+4. Control rover + view sensor data in GUI
+
+---
+
+## 💡 Future Enhancements
+
+* Add **autonomous navigation** using GPS or line tracking
+* Integrate **machine learning** for crop moisture prediction
+* Deploy remote telemetry using **MQTT** or **LoRa**
+* Add **cloud-based dashboard** for farmers
+
+---
+
+## 🎯 Why This Project Stands Out
+
+This project showcases **real-world problem solving** using a combination of hardware, software, and web technologies. It emphasizes:
+
+* **Hardware/software integration**
+* **Robust communication protocols**
+* **Modular and scalable architecture**
+* **Real-time interaction and control**
+* **End-to-end IoT pipeline** from sensor to user interface
+
+
+
