@@ -75,7 +75,7 @@ Key goals of this system:
 
 > Dual DC motor simulation using H-Bridge (L298N)
 
-![Motor Driver Simulation](shield.png)
+![Motor Driver Simulation](shield.PNG)
 
 ---
 
